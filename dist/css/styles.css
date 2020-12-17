@@ -704,6 +704,12 @@ pre code {
   margin-left: -0.75rem;
 }
 
+.subrow {
+  display: flex;
+  
+  
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -10754,7 +10760,7 @@ body {
   height: 174px;
   padding: 10px;
   border: 1px solid #000000;
-  margin: 0;
+  margin: 10px;
   background-color: #ffffff;
 }
 
@@ -10763,7 +10769,7 @@ body {
   height: 20%;
   padding: 0;
   border: 0;
-  margin: 0;
+  margin: 0px;
 }
 
 .stdKey {
@@ -10890,6 +10896,17 @@ body {
   margin: 0;
 }
 
+#outputContainerForSentence {
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+
 #output {
   width: 100%;
   padding: 0;
@@ -10897,13 +10914,17 @@ body {
 }
 
 #verticalNotesContainer {
-  left: 601px;
+  left: 700px;
   top: 0px;
   width: 310px;
 
-  padding: 0;
+   padding: 0;
   border: 0;
   margin: 0;
+}
+
+#verticalNotes {
+  float: right;
 }
 
 #stenoKeyboard {
@@ -10917,7 +10938,7 @@ body {
   height: 174px;
   padding: 10px;
   border: 1px solid #000000;
-  margin: 0;
+  margin: 10px;
 
   /* Colors */
   background-color: #ffffff;
@@ -11080,4 +11101,12 @@ body {
 #stenoKey-U {
   /* Box */
   margin-left: 0.3125%;
+}
+
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
 }

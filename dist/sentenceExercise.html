@@ -86,7 +86,7 @@
 
 								<div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
 									<nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-										<a class="nav-link active" href="#">
+										<a class="nav-link" href="exercise.html">
 											Bài 1: Bàn phím gõ tốc kí
 										</a>
 										<a class="nav-link " href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
@@ -100,10 +100,10 @@
 												<a class="nav-link" href="exercise.html">Gõ âm cuối</a>
 											</nav>
 										</div>
-										<a class="nav-link" href="wordExercise.html">
+										<a class="nav-link " href="wordExercise.html">
 											Bài 3: Học gõ từ
 										</a>
-										<a class="nav-link" href="sentenceExercise.html">
+										<a class="nav-link active" href="#">
 											Bài 4: Học gõ câu
 										</a>
 										
@@ -148,21 +148,49 @@
                         <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div> -->
                     </div>
                     <div class="row">
-                        
-                        <div id="outputContainer" class="ui-draggable ui-resizable">
-                            <h1>Output</h1>
-                            <textarea id="output" rows="10" cols="66"></textarea>
-                            <div class="ui-resizable-handle ui-resizable-s"></div>
-                            <div class="ui-resizable-handle ui-resizable-s"></div>
-                        </div>
+						<div>
+								<h2>Gõ các câu sau: </h2>
+								<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+						</div>
+						<div class="subrow" style="width: 100%;">
+							<div id="outputContainer" class="ui-draggable ui-resizable">
+								
+								<div><textarea id="output" rows="8" cols="50"></textarea>
+								<div class="ui-resizable-handle ui-resizable-s"></div>
+								<div class="ui-resizable-handle ui-resizable-s"></div></div>
+							</div>
+							
+							<div id="verticalNotesContainer" class="ui-draggable ui-resizable" style="padding-left: 10px">        
 
-                        <div id="verticalNotesContainer" class="ui-draggable ui-resizable">
-                            <h1>Vertical Notes</h1>
-                            <textarea id="verticalNotes" wrap="off" rows="10" cols="36"></textarea>
-                            <div class="ui-resizable-handle ui-resizable-s"></div>
-                            <div class="ui-resizable-handle ui-resizable-s"></div>
-                        </div>
+                                    <table  width="100%" cellspacing="2" style=" text-align: center;border-collapse: collapse; ">
+                                        <thead>
+                                            <tr>
+                                                <th>Tiêu chí</th>
+                                                <th>Kết quả</th>
+                                               
+                                            </tr>
+                                        </thead>                                       
+                                        <tbody>
+                                            <tr>
+                                                <td>Số câu/phút</td>
+                                                <td>6</td>                                              
+                                            </tr>
+                                            <tr>
+                                                <td>Số câu sai</td>
+                                                <td>2</td>
+                                            </tr>   
+											<tr>
+                                                <td>Số câu đúng</td>
+                                                <td>4</td>
+                                            </tr> 
+                                        </tbody>
+                                    </table>
+                                </div>
 
+							</div>
+						</div>
+                    
+					<div class="row">
                         <div id="stdKeyboard" class="ui-draggable ui-resizable">
                             <div class="stdRow">
                                 <div class="stdKey code192" id="stdKeyGraveAccent"
